@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\wonbi\\source\\repos\\cppStudy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B53.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:week2\\\uC2E4\uC2B53.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B52.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:week2\\\uC2E4\uC2B52.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B51.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:week2\\\uC2E4\uC2B51.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\uC2E4\uC2B53.cpp",
+              "DocumentMoniker": "C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B53.cpp",
+              "RelativeDocumentMoniker": "week2\\\uC2E4\uC2B53.cpp",
+              "ToolTip": "C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B53.cpp",
+              "RelativeToolTip": "week2\\\uC2E4\uC2B53.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-08T06:28:54.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "\uC2E4\uC2B52.cpp",
+              "DocumentMoniker": "C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B52.cpp",
+              "RelativeDocumentMoniker": "week2\\\uC2E4\uC2B52.cpp",
+              "ToolTip": "C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B52.cpp",
+              "RelativeToolTip": "week2\\\uC2E4\uC2B52.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-08T06:24:35.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "\uC2E4\uC2B51.cpp",
+              "DocumentMoniker": "C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B51.cpp",
+              "RelativeDocumentMoniker": "week2\\\uC2E4\uC2B51.cpp",
+              "ToolTip": "C:\\Users\\wonbi\\source\\repos\\cppStudy\\week2\\\uC2E4\uC2B51.cpp",
+              "RelativeToolTip": "week2\\\uC2E4\uC2B51.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-08T06:07:37.518Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
