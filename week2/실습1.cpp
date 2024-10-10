@@ -3,6 +3,37 @@
 * main 함수가 잘 작동하도록 rectangle 클래스를 작성하고 프로그램을 완성하라.
 * width와 height의 두 멤버변수와 3개의 생성자, isSquare()함수를 가진다.
 */
+#include <iostream>
+
+using namespace std;
+
+class Rectangle
+{
+	int width, height;
+public:
+	Rectangle() : width(0), height(0) {}
+	Rectangle(int width, int height)
+	{
+		this->width = width;
+		this->height = height;
+	}
+	Rectangle(int length)
+	{
+		width = height = length;
+	}
+	bool isSquare()
+	{
+		if (width == height)
+		{
+			return 1;
+		}
+		else
+		{
+			return 0;
+		}
+	}
+	
+};
 
 int main() {
 	Rectangle rect1;
