@@ -1,20 +1,59 @@
 /*
-* rectangle Å¬·¡½º ¸¸µé±â
-* main ÇÔ¼ö°¡ Àß ÀÛµ¿ÇÏµµ·Ï rectangle Å¬·¡½º¸¦ ÀÛ¼ºÇÏ°í ÇÁ·Î±×·¥À» ¿Ï¼ºÇÏ¶ó.
-* width¿Í heightÀÇ µÎ ¸â¹öº¯¼ö¿Í 3°³ÀÇ »ý¼ºÀÚ, isSquare()ÇÔ¼ö¸¦ °¡Áø´Ù.
-*/
+ * rectangle Å¬ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½
+ * main ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ûµï¿½ï¿½Ïµï¿½ï¿½ï¿½ rectangle Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Û¼ï¿½ï¿½Ï°ï¿½ ï¿½ï¿½ï¿½Î±×·ï¿½ï¿½ï¿½ ï¿½Ï¼ï¿½ï¿½Ï¶ï¿½.
+ * widthï¿½ï¿½ heightï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 3ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, isSquare()ï¿½Ô¼ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.
+ */
+#include <iostream>
+using namespace std;
 
-int main() {
+class Rectangle
+{
+	int width, height;
+
+public:
+	Rectangle()
+	{
+		width = 1;
+		height = 1;
+	};
+	Rectangle(int width)
+	{
+		this->width = width;
+		height = 1;
+	}
+	Rectangle(int width, int height)
+	{
+		this->width = width;
+		this->height = height;
+	}
+	bool isSquare()
+	{
+		if (width == height)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+};
+
+int main()
+{
 	Rectangle rect1;
 	Rectangle rect2(3, 5);
 	Rectangle rect3(3);
 
-	if (rect1.isSquare()) cout << "rect1Àº Á¤»ç°¢ÇüÀÌ´Ù." << endl;
-	if (rect2.isSquare()) cout << "rect2´Â Á¤»ç°¢ÇüÀÌ´Ù." << endl;
-	if (rect3.isSquare()) cout << "rect3´Â Á¤»ç°¢ÇüÀÌ´Ù." << endl;
+	if (rect1.isSquare())
+		cout << "rect1ì€ ì •ì‚¬ê°í˜•ì´ë‹¤." << endl;
+	if (rect2.isSquare())
+		cout << "rect2ì€ ì •ì‚¬ê°í˜•ì´ë‹¤." << endl;
+	if (rect3.isSquare())
+		cout << "rect3ì€ ì •ì‚¬ê°í˜•ì´ë‹¤." << endl;
 }
 
-/*°á°ú
-* rect1Àº Á¤»ç°¢ÇüÀÌ´Ù.
-* rect3´Â Á¤»ç°¢ÇüÀÌ´Ù.
-*/
+/*ï¿½ï¿½ï¿½
+ * rect1ï¿½ï¿½ ï¿½ï¿½ï¿½ç°¢ï¿½ï¿½ï¿½Ì´ï¿½.
+ * rect3ï¿½ï¿½ ï¿½ï¿½ï¿½ç°¢ï¿½ï¿½ï¿½Ì´ï¿½.
+ */
